@@ -1,0 +1,18 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+    "name": "bruiserh2h",
+    "version-string": "1.0.0",
+    "license": "MIT",
+    "features": {
+        "plugin": {
+            "description": "Build the SKSE plugin.",
+            "dependencies": [
+                "commonlibsse-ng",
+                "simpleini"
+            ]
+        }
+    },
+    "default-features": [
+        "plugin"
+    ]
+}
